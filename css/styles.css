@@ -57,6 +57,10 @@ body {
   transition: all 0.3s;
 }
 
+.navigation-list-link.active {
+  color: var(--accent-cl);
+}
+
 .navigation-list-link:hover,
 .navigation-list-link:focus {
   color: var(--accent-cl);
@@ -103,8 +107,8 @@ body {
 
 .hero-btn:hover,
 .hero-btn:focus {
-  background-color: #fff;
-  color: var(--accent-cl);
+  background-color: #158bec;
+  color: #fff;
 }
 
 /* Секція про нас */
@@ -112,6 +116,7 @@ body {
 .about-list-item-title {
   color: var(--title-cl);
   font-weight: 700;
+  font-size: 14px;
   letter-spacing: 0.42px;
   text-transform: uppercase;
 }
@@ -124,6 +129,10 @@ body {
 /* Секція спеціалізація */
 
 /* Секція команда */
+
+.team {
+  background-color: #F5F4FA;
+}
 
 .team-list-item-title {
   color: var(--title-cl);
@@ -180,9 +189,17 @@ body {
 
 .projects-btn {
   font-size: 16px;
+  background-color: #F5F4FA;
   font-weight: 500;
   line-height: 1.62;
   letter-spacing: 0.48px;
+  transition: all 0.3s;
+}
+
+.projects-btn:hover,
+.projects-btn:focus {
+  color: #fff;
+  background-color: var(--accent-cl);
 }
 
 .projects-type-list-title {
